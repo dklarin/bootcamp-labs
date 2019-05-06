@@ -5,6 +5,14 @@ const task = `
 /**the test case inputs */
 var testCases = ["jurica smircic"];
 
-function solution(input, output) {}
+function solution(input, output) {
+        
+        var splitString = input.split("");
+        var reverseArray = splitString.reverse();
+        var joinArray = reverseArray.join("");
+                
+        output.write(joinArray)
+
+}
 
 export default { id: "001_revrse_string", task, solution, testCases };
