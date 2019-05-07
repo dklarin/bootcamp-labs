@@ -1,7 +1,3 @@
-import {
-    type
-} from "os";
-
 const task = `
 Write a program that will output a sum of digits of a input number
 `;
